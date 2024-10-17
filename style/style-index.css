@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: #ffde59; /* Fallback background color */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/bg_mels.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffffa3;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+.none-btn{
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+.btn-cus{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #000000, #767200);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.contento{
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.contento h1{
+    font-size: 70px;
+    color: #222;
+}
+
+.contento p{
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+
+.contento .btn-cus{
+    padding: 15px 40px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+.btn-cus:hover{
+    border-top-right-radius: 30px;
+}
+
+.feature-img{
+    width: 530px;
+    position: absolute;
+    right: 10%;
+}
+
+.feature-img.anim{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    animation-delay: 1.5s;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+html { 
+    scroll-behavior: smooth; }
+
+.carrd {
+    background-color: #9b873673;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+  }
+  
+.progress-bar-container {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+.progress {
+    height: 20px;
+    background-color: white;
+    border: 2px solid #0000007e;  
+    border-radius: 5px;      
+    overflow: hidden;  
+}
+  
+#progress-html {
+    background-color: #ffb3ba;  
+}
+  
+  #progress-css {
+    background-color: #bac9ff;  
+  }
+  
+  #progress-php {
+    background-color: #dabaff;  
+  }
+  
+  #progress-javascript {
+    background-color: #fddd73;  
+  }
+  
+  #progress-laravel {
+    background-color: #ff7f7f;  
+  }
+  
+  #progress-bootstrap {
+    background-color: #c680ff;  
+  }
+  
+  #progress-java {
+    background-color: #7cc8ff;  
+  }
+  
+  #progress-python {
+    background-color: #69ffe8;  
+  }
+  
+  #progress-odoo {
+    background-color: #cc89ff;  
+  }
+  
+  .progress-bar {
+    width: 0%;
+    transition: width 0.6s ease;
+    height: 100%;
+    border-radius: 5px; 
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s;
+  }
+  
+  .contact-link:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }

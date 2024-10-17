@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melody's</title>
+
+  <link rel="stylesheet" href="style/style-index.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="style/script.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <nav>
+      <img src="images/logo_mels.png" class="logo">
+      <ul>
+        <li><a href="#profile" class="none-btn"><b>profile</b></a></li>
+        <li><a href="#skills" class="none-btn"><b>skill</b></a></li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <b>mine</b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://melodysm.co-id.id/tugas%201/index.html">Simple</a></li>
+            <li><a class="dropdown-item" href="https://melodysm.co-id.id/tugas%202/form.html">Form</a></li>
+            <li><a class="dropdown-item" href="https://melodysm.co-id.id/">Shops</a></li>
+          </ul>
+        </li>
+        <li><a href="#contacts" class="btn-cus"><b>contact</b></a></li>
+      </ul>
+    </nav>
+    <div class="contento">
+      <h1 class="anim">Welcome! <br>Nice to meet you</h1>
+      <p class="anim">My name is Melody, and let's get to know me!</p>
+      <a href="#" class="btn-cus anim" onclick="sayHi()">say hi!</a>
+    </div>
+    <img src="images/pic_mels.png" class="feature-img anim">
+  </div>
+
+  <div class="hero" id="profile">
+    <div class="container carrd" style="margin-top: 100px; padding-right: 50px; padding-left: 50px;">
+      <div class="row">
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <img src="images/profile.png" width="100%" alt="Profile Image" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"><hr style="border: 1px solid #000; width: 80%; margin: 20px auto;"></h5>
+            <h6>Hello! My name is Melody, and I'm currently studying Information Technology at Universitas Sumatera Utara</h6>
+            <p class="card-text">
+              <br>
+              I have always been fascinated by technology and its ability to solve real-world problems. Throughout my studies, I have gained a solid foundation in various areas of IT, including programming, database management, and systems analysis. My coursework has allowed me to develop a strong skill set in languages such as Python and Java, as well as frameworks like Odoo.
+            </p>
+            <p class="card-text">
+              Previously, I interned at a cloud computing company, where I worked as a Research and Development intern focusing on Odoo and TypeScript. During this internship, I had the opportunity to contribute to several projects, where I collaborated with a talented team of developers to create innovative solutions. This experience not only enhanced my technical skills but also taught me the importance of teamwork and effective communication in a professional setting.
+            </p>
+            <p class="card-text"> 
+              In my free time, I enjoy working on personal projects that allow me to experiment with new technologies and programming languages. I also participate in coding competitions and hackathons, which challenge me to think critically and creatively under pressure. Additionally, I love keeping up with the latest trends in the tech industry through online courses, podcasts, and tech blogs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero skilll" id="skills">
+    <h1 style="margin-top: 40px;">
+      MY SKILLS
+    </h1>
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/html.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-html">HTML</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/css.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-css">CSS</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/php.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-php">PHP</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/js.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-javascript">JavaScript</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/laravel.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-laravel">Laravel</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/bootstrap.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-bootstrap">Bootstrap</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/java.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-java">Java</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/python.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-python">Python</div>
+      </div>
+    </div>
+    
+    <div class="progress-bar-container mb-3">
+      <div class="image-container">
+        <img src="images/odoo.png" height="30px"> 
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progress-odoo">Odoo</div>
+      </div>
+    </div>    
+  </div>
+
+  <div class="footer" id="contacts">
+    <h1 style="margin-top: 40px;">CONTACT ME HERE!</h1>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <a href="https://www.instagram.com/mldysm_" target="_blank" class="contact-link">
+            <img src="images/ig.png" alt="Instagram" class="social-icon">
+            <p>Instagram</p>
+          </a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://github.com/mldysm" target="_blank" class="contact-link">
+            <img src="images/github.png" alt="GitHub" class="social-icon">
+            <p>GitHub</p>
+          </a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://wa.me/62895379040236" class="contact-link">
+            <img src="images/phone.png" alt="Phone" class="social-icon">
+            <p>Contact</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
